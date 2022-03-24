@@ -1,5 +1,9 @@
 body{background: rgb(26,26,29);
 background: linear-gradient(90deg, rgba(26,26,29,1) 0%, rgba(149,7,64,1) 100%);
+color:antiquewhite;
+    font-family: 'Acme', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Shippori Antique', sans-serif;
 }
 .navbar-dark{
      background: rgb(26,26,29);
@@ -8,14 +12,46 @@ background: linear-gradient(90deg, rgba(26,26,29,1) 0%, rgba(149,7,64,1) 100%);
 
 section{
     margin-top:180px;
+    margin-bottom:300px;
 }
 #one{
     font-size: 70px;
 }
-p{
+#p1{
     font-size:30px;
-    color:antiquewhite;
-    font-family: 'Acme', sans-serif;
-font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Shippori Antique', sans-serif;
+    
+}
+img{
+    
+    width:100%;
+}
+#main2{
+    background-image:url("i1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 570px;
+    margin-bottom:30px;
+    
+}
+#p2,#p3{
+    font-size: 50px;
+}
+#text{
+    background-color:#1A1A1D;
+}
+#text section{
+    background-color: #950740;
+    padding-top:35px;
+    padding-bottom:10px;
+    margin-left: 20px;
+    margin-right:10px;
+    text-align:center;
+  
+    border-radius: 5px;
+}
+h3{
+    border-bottom: 2px solid #1a1a1d;
+    padding-bottom:8px;
+    
 }
